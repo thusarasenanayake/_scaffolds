@@ -1,0 +1,15 @@
+{
+  "name": "esbuild-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --outfile=dist/bundle.js --bundle --platform=node --target=node16"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.3"
+  }
+}
